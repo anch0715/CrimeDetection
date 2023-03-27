@@ -5,7 +5,7 @@ import argparse
 
 def main(args):
     data = {
-    0 : 'assult_frame',
+    0 : 'assault_frame',
     1 : 'burglary_frame',
     2 : 'kidnap_frame',
     3 : 'robbery_frame',
@@ -16,11 +16,11 @@ def main(args):
     fpath = args.path
 
 
-    assult_files = []
-    file_path = f'{fpath}/frame_data/assult_frame'
+    assault_files = []
+    file_path = f'{fpath}/frame_data/assault_frame'
     for fname in glob.glob(os.path.join(file_path, '*')):
-        assult_files.append(fname)
-    assult_files.sort()
+        assault_files.append(fname)
+    assault_files.sort()
 
 
     burglary_files = []
@@ -60,7 +60,7 @@ def main(args):
 
 
     all_file = {
-        0:assult_files,
+        0:assault_files,
         1:burglary_files,
         2:kidnap_files,
         3:robbery_files,
