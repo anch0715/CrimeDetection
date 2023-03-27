@@ -121,7 +121,7 @@ def train(model, params):
     
         torch.save(model.state_dict(), './weight_vit_multi')
 
-    target_names = ['assult','burglary','kidnap','robbery','swoon']
+    target_names = ['assault','burglary','kidnap','robbery','swoon']
     print(EvaluationMetric(num_class=num_class).multiclass_f_measure(correct_y, pred_y, num_class, target_names))
     a = np.array([correct_y.cpu().numpy(), pred_y.cpu().numpy()])
     np.save('./vit_test5_predict', a)
