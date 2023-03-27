@@ -146,7 +146,7 @@ def test(model1, model2, params):
     test_acc = correct/total
 
 
-    target_names2 = ['Assult','Burglary','Kidnap','Robbery','Swoon']
+    target_names2 = ['Assault','Burglary','Kidnap','Robbery','Swoon']
 
     print('Multi Test Accuracy at Last Epoch: %2f'%(test_acc))
 
