@@ -62,7 +62,7 @@ if __name__ == '__main__':
     print(dataset[0])
     print(type(dataset[0][0]))
 
-class AssultDataset(Dataset):
+class AssaultDataset(Dataset):
     def __init__(self, annotations_file,transform=None, target_transform=None):
         self.annotation = pd.read_csv(annotations_file)
         self.annotation = self.annotation.drop(['Unnamed: 0'], axis=1)
