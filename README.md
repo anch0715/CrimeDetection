@@ -9,6 +9,6 @@ We collected surveillance dataset from AI Hub. As mentioned above, the dataset c
 
 <img width="1181" alt="Screen Shot 2023-03-27 at 1 14 53 PM" src="https://user-images.githubusercontent.com/90234691/227839367-085c050a-d998-4c0c-bb9c-bcebf325f908.png">
 
-# - Result
+# Result
 
 <img width="957" alt="Screen Shot 2023-03-27 at 1 16 28 PM" src="https://user-images.githubusercontent.com/90234691/227839597-2744b6d9-bd2c-4755-8274-2646ec3a475e.png">
